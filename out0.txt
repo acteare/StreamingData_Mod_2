@@ -5,3 +5,119 @@ This will clear the console output.
 Run the file once while the tasks are short. 
 
 Copy and paste the terminal results (when task_duration is 0) here.
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2>  & 'C:\Users\actea\AppData\Local\Microsoft\WindowsApps\python3.11.exe' 'c:\Users\actea\.vscode\extensions\ms-python.python-2023.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '52965' '--' 'c:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2\00_check_core.py'
+
+======================================================================
+======================================================================
+ Welcome to NW Diagnostics!
+ At: 2023-08-23 at 10:21 AM
+ Operating System: nt Windows 10
+ System Architecture: 64bit
+ Number of CPUs: 8
+ Machine Type: AMD64
+ Python Version: 3.11.4
+ Python Build Date and Compiler: tags/v3.11.4:d2340ef with Jun  7 2023 05:45:37
+ Python Implementation: CPython
+ Active pip environment: None
+ Path to Interpreter:         C:\Users\actea\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+ Path to source directory:    c:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2
+ Path to script file:         c:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2\00_check_core.py
+ User's Home Directory:       C:\Users\actea
+ Terminal Environment:        VS Code
+ Terminal Type:               cmd.exe
+ Git available in PATH:       True
+======================================================================
+======================================================================
+
+PS C:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2>  c:; cd 'c:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2'; & 'C:\Users\actea\AppData\Local\Microsoft\WindowsApps\python3.11.exe' 'c:\Users\actea\.vscode\extensions\ms-python.python-2023.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '52979' '--' 'c:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2\multiple_processes.py' 
+2023-08-23 10:21:34,783 - INFO - 
+======================================================================
+STARTING UP.............................
+  Date and Time:    2023-08-23 at 10:21 AM
+  Operating System: nt Windows 10
+  Python Version:   3.11.4
+  Path to Interpreter:  C:\Users\actea\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+======================================================================
+
+2023-08-23 10:21:34,783 - INFO - Called recreate_database().
+2023-08-23 10:21:34,791 - INFO - Called drop_table().
+2023-08-23 10:21:34,796 - INFO - Table 'pets' dropped successfully.
+2023-08-23 10:21:34,796 - INFO - Called create_table().
+PS C:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2>  c:; cd 'c:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2'; & 'C:\Users\actea\AppData\Local\Microsoft\WindowsApps\python3.11.exe' 'c:\Users\actea\.vscode\extensions\ms-python.python-2023.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '53005' '--' 'C:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2\multiple_processes.py' 
+2023-08-23 10:27:25,618 - INFO -
+======================================================================
+STARTING UP.............................
+  Date and Time:    2023-08-23 at 10:27 AM
+  Operating System: nt Windows 10
+  Python Version:   3.11.4
+  Path to Interpreter:  C:\Users\actea\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+======================================================================
+
+2023-08-23 10:27:25,618 - INFO - Called recreate_database().
+2023-08-23 10:27:25,626 - INFO - Called drop_table().
+2023-08-23 10:27:25,634 - INFO - Table 'pets' dropped successfully.
+2023-08-23 10:27:25,642 - INFO - Called create_table().
+2023-08-23 10:27:25,642 - INFO - Table 'pets' created successfully.
+0.02s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.03s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.03s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+PS C:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2>  c:; cd 'c:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2'; & 'C:\Users\actea\AppData\Local\Microsoft\WindowsApps\python3.11.exe' 'c:\Users\actea\.vscode\extensions\ms-python.python-2023.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '53047' '--' 'C:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2\multiple_processes.py' 
+2023-08-23 10:29:37,117 - INFO -
+======================================================================
+STARTING UP.............................
+  Date and Time:    2023-08-23 at 10:29 AM
+  Operating System: nt Windows 10
+  Python Version:   3.11.4
+  Path to Interpreter:  C:\Users\actea\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+======================================================================
+
+2023-08-23 10:29:37,117 - INFO - Called recreate_database().
+2023-08-23 10:29:37,125 - INFO - Called drop_table().
+2023-08-23 10:29:37,133 - INFO - Table 'pets' dropped successfully.
+2023-08-23 10:29:37,133 - INFO - Called create_table().
+2023-08-23 10:29:37,150 - INFO - Table 'pets' created successfully.
+0.02s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.02s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.02s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+2023-08-23 10:29:38,125 - INFO - Called process_one().
+2023-08-23 10:29:38,125 - INFO -   Called insert_pet() with process=P1, name=Ace, breed=Dog.
+2023-08-23 10:29:38,141 - INFO -   Called insert_pet() with process=P1, name=Buddy, breed=Dog.
+2023-08-23 10:29:38,145 - INFO - Called process_two().
+2023-08-23 10:29:38,145 - INFO -   Called insert_pet() with process=P2, name=Cooper, breed=Rabbit.
+2023-08-23 10:29:38,162 - INFO -   Called insert_pet() with process=P2, name=Dingo, breed=Dog.
+2023-08-23 10:29:38,186 - INFO - Called process_three().
+2023-08-23 10:29:38,193 - INFO -   Called insert_pet() with process=P3, name=Emma, breed=Rabbit.
+2023-08-23 10:29:38,206 - INFO -   Called insert_pet() with process=P3, name=Felix, breed=Cat.
+2023-08-23 10:29:38,945 - INFO - 
+SUCCESS: All processes successfully completed!
+
+Now - increase the task duration (representing
+      the time the task has the database
+      tied up during an insert statement).
+How well do multiple, concurrent processes share a database
+    when each task takes more time?
+How can multiple processes share a resource
+    without interfering with each other?
