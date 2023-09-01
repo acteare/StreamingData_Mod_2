@@ -1,0 +1,69 @@
+In the console, type clear and hit Enter or Return. 
+
+This will clear the console output. 
+
+Run the file once while the tasks are short. 
+
+Copy and paste the terminal results (when task_duration is 0) here.
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2>  & 'C:\Users\actea\AppData\Local\Microsoft\WindowsApps\python3.11.exe' 'c:\Users\actea\.vscode\extensions\ms-python.python-2023.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '64135' '--' 
+'c:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2\process_streaming_0.py'
+2023-09-01 10:54:10,077 - INFO - ===============================================
+2023-09-01 10:54:10,077 - INFO - Starting fake streaming process.
+2023-09-01 10:54:10,078 - INFO - Starting to stream data from batchfile_0_farenheit.csv to ('localhost', 9999).
+2023-09-01 10:54:10,082 - INFO - Opened for reading: batchfile_0_farenheit.csv.
+2023-09-01 10:54:10,082 - INFO - Skipped header row: ['ï»¿Year', 'Month', 'Day', 'Time', 'TempF']
+2023-09-01 10:54:10,090 - INFO - Sent: b'[2023, 1, 3, 7:55, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 10:54:13,091 - INFO - Sent: b'[2023, 1, 3, 7:35, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 10:54:16,093 - INFO - Sent: b'[2023, 1, 3, 7:15, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 10:54:19,096 - INFO - Sent: b'[2023, 1, 3, 6:55, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 10:54:22,099 - INFO - Sent: b'[2023, 1, 3, 6:35, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 10:54:25,100 - INFO - Sent: b'[2023, 1, 3, 6:15, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 10:54:28,103 - INFO - Sent: b'[2023, 1, 3, 5:55, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 10:54:31,105 - INFO - Sent: b'[2023, 1, 3, 5:35, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 10:54:34,108 - INFO - Sent: b'[2023, 1, 3, 5:15, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 10:54:37,111 - INFO - Sent: b'[2023, 1, 3, 4:55, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 10:54:40,112 - INFO - Sent: b'[2023, 1, 3, 4:35, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 10:54:43,115 - INFO - Sent: b'[2023, 1, 3, 4:15, 14]' on port 9999. Hit CTRL-c to stop.
+999. Hit CTRL-c to stop.                                                  999. Hit CTRL-c to stop.
+2023-09-01 10:54:58,126 - INFO - Sent: b'[2023, 1, 3, 2:35, 14]' on port 9999. Hit CTRL-c to stop.999. Hit CTRL-c to stop.                                                  999. Hit CTRL-c to stop.
+Traceback (most recent call last):
+  File "c:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2\process_streaming_0.py", line 97, in <module>
+    stream_row(INPUT_FILE_NAME, ADDRESS_TUPLE)
+  File "c:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2\process_streaming_0.py", line 87, in stream_row
+    time.sleep(3) # wait 3 seconds between messages
+    ^^^^^^^^^^^^^
+KeyboardInterrupt                                                      >  c:; cd 'c:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2'; & 'C:\Users\actea\AppData\Local\Microsoft\WindowsApps\python3.11.exe' 'c:\Users\actea\.vscode\extensions\ms-python.python-2023.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '64666' '--' 'c:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2\process_streaming_Teare.py' 
+2023-09-01 11:08:27,690 - INFO - ===============================================
+2023-09-01 11:08:27,691 - INFO - Starting fake streaming process.
+2023-09-01 11:08:27,691 - INFO - Starting to stream data from albumlist.csv to ('localhost', 9999).
+2023-09-01 11:08:27,691 - INFO - Opened for reading: albumlist.csv.
+2023-09-01 11:08:27,692 - INFO - Skipped header row: ['Number', 'Year', 'Album', 'Artist', 'Genre', 'Subgenre']
+2023-09-01 11:08:27,699 - INFO - Sent: b"[1, 1967, Sgt. Pepper's Lonely Hearts Club Band, The Beatles, Rock, Rock & Roll, Psychedelic Rock]" on port 9999. Hit CTRL-c to stop.
+2023-09-01 11:08:30,700 - INFO - Sent: b'[2, 1966, Pet Sounds, The Beach Boys, Rock, Pop Rock, Psychedelic Rock]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 11:08:33,702 - INFO - Sent: b'[3, 1966, Revolver, The Beatles, Rock, Psychedelic Rock, Pop Rock]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 11:08:36,704 - INFO - Sent: b'[4, 1965, Highway 61 Revisited, Bob Dylan, Rock, Folk Rock, Blues Rock]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 11:08:39,707 - INFO - Sent: b'[5, 1965, Rubber Soul, The Beatles, Rock, Pop, Pop Rock]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 11:08:42,710 - INFO - Sent: b"[6, 1971, What's Going On, Marvin Gaye, Funk / Soul, Soul]" on port 9999. Hit CTRL-c to stop.
+2023-09-01 11:08:45,712 - INFO - Sent: b'[7, 1972, Exile on Main St., The Rolling Stones, Rock, Blues Rock, Rock & Roll, Classic Rock]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 11:08:48,715 - INFO - Sent: b'[8, 1979, London Calling, The Clash, Rock, Punk, New Wave]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 11:08:51,717 - INFO - Sent: b'[9, 1966, Blonde on Blonde, Bob Dylan, Rock, Blues, Folk Rock, Rhythm & Blues]' on port 9999. Hit CTRL-c 
+to stop.
+2023-09-01 11:08:54,720 - INFO - Sent: b'[10, 1968, The Beatles ("The White Album"), The Beatles, Rock, Rock & Roll, Pop Rock, Psychedelic Rock, Experimental]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 11:08:57,723 - INFO - Sent: b'[11, 1976, The Sun Sessions, Elvis Presley, Rock, Rock & Roll]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 11:09:00,724 - INFO - Sent: b'[12, 1959, Kind of Blue, Miles Davis, Jazz, Modal]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 11:09:03,727 - INFO - Sent: b'[13, 1967, The Velvet Underground & Nico, The Velvet Underground, Rock, Garage Rock, Art Rock, Experimental]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 11:09:06,730 - INFO - Sent: b'[14, 1969, Abbey Road, The Beatles, Rock, Psychedelic Rock, Classic Rock, Pop Rock]' on port 9999. Hit CTRL-c to stop.
+Traceback (most recent call last):
+  File "c:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2\process_streaming_Teare.py", line 97, in <module>
+    stream_row(INPUT_FILE_NAME, ADDRESS_TUPLE)
+  File "c:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2\process_streaming_Teare.py", line 87, in stream_row
+    time.sleep(3) # wait 3 seconds between messages
+    ^^^^^^^^^^^^^
+KeyboardInterrupt
+PS C:\Users\actea\Documents\Streaming Data\Module 2\StreamingData_Mod_2> 
