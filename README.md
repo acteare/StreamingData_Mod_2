@@ -140,3 +140,11 @@ with no process able to move forward and make progress.
 ### Learn More
 
 Check out Wikipedia's article on deadlock and other sources to learn how to prevent and avoid locking issues in concurrent processes. 
+
+### Amelia Task Notes
+
+Task 1: Activities appeared to perform in order, but it also looked as if there was a slight free-for-all after a few rows were uploaded. If the machine dies, I feel like the rows that were written before the connection was lost would be safe, but no additional rows would be uploaded.
+
+Task 2: As time increased, we opened ourselves to a higher possibility of dead/live lock. 
+
+Task 4: When reading from a different CSV file, I first had to change the name of the input file or it wouldn't pull the correct information. From there, I had to ensure there were the correct number of columns and that the column names were correct. In the original code, there were 5 pieces of information for each row. In my code, I had to adjust it to 6 and make sure the right names were being given to each piece of information.
